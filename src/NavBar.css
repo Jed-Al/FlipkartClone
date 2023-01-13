@@ -1,0 +1,54 @@
+.NavBar {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: #2a79e8;
+  color: #fff;
+  /* values top right bottom left */
+  padding: 18px 160px 16px 160px;
+  /* border-bottom-left-radius: 16px; */
+  /* border-bottom-right-radius: 16px; */
+}
+
+.flipkartIcon {
+  height: 100%;
+  margin-top: 6px;
+  margin-right: 16px;
+}
+
+.searchIcon {
+  padding: 7px;
+  background-color: #fff;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.searchBar {
+  outline: none;
+  border: none;
+  background-color: #fff;
+  border-radius: 4px 0px 0px 4px;
+  font-size: 14px;
+  height: 32px;
+  width: 500px;
+  padding-left: 16px;
+  margin-left: 16px;
+}
+
+.navButton {
+  background-color: #2a79e8;
+  color: #fff;
+  padding: 8px 16px 8px 16px;
+  font-size: 14px;
+  border: none;
+  font-weight: bold;
+}
+
+.loginButton {
+  /* this is the first button so more margin is required */
+  margin-left: 24px;
+  padding: 8px 48px 8px 48px;
+}
+
+.blockButton {
+  background-color: #fff;
+  color: #2a79e8;
+}
