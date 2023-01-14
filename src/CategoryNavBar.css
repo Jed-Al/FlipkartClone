@@ -6,17 +6,3 @@
     justify-content: center;
     align-items: center;
 }
-
-.imageButton {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 16px;
-}
-
-.imageName {
-    margin: 0px;
-}

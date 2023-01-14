@@ -1,58 +1,21 @@
 import './CategoryNavBar.css';
+import Card from './Card';
 
 function CategoryNavBar() {
     return (
         <div className='categoryNavBar'>
-            <div className="imageButton">
-                <img height="80" src="groceryIcon.png"></img>
-                <p class="imageName">Grocery</p>
-            </div>
 
-            <div className="imageButton">
-                <img height="80" src="mobileIcon.png"></img>
-                <p class="imageName">Mobiles</p>
-            </div>
+            <Card image="groceryIcon.png" text="Grocery" />
+            <Card image="mobileIcon.png" text="Mobile" />
+            <Card image="fashionIcon.png" text="Fashion" />
+            <Card image="electronicsIcon.png" text="Electronics" />
+            <Card image="homeIcon.png" text="Home" />
+            <Card image="appliancesIcon.png" text="Appliances" />
+            <Card image="travelIcon.png" text="Travel" />
+            <Card image="offerIcon.png" text="Offers" />
+            <Card image="moreIcon.png" text="Beauty, Toys & More" />
+            <Card image="twoWheelerIcon.png" text="Two Wheelers" />
 
-            <div className="imageButton">
-                <img height="80" src="fashionIcon.png"></img>
-                <p class="imageName">Fashion</p>
-            </div>
-
-            <div className="imageButton">
-                <img height="80" src="electronicsIcon.png"></img>
-                <p class="imageName">Electronics</p>
-            </div>
-
-            <div className="imageButton">
-                <img height="80" src="homeIcon.png"></img>
-                <p class="imageName">Home</p>
-            </div>
-
-            <div className="imageButton">
-                <img height="80" src="appliancesIcon.png"></img>
-                <p class="imageName">Appliances</p>
-            </div>
-
-            <div className="imageButton">
-                <img height="80" src="travelIcon.png"></img>
-                <p class="imageName">Travel</p>
-            </div>
-
-            <div className="imageButton">
-                <img height="80" src="offerIcon.png"></img>
-                <p class="imageName">Top Offers</p>
-            </div>
-
-            <div className="imageButton">
-                <img height="80" src="moreIcon.png"></img>
-                <p class="imageName">Beauty, Toys & More</p>
-            </div>
-
-            <div className="imageButton">
-                <img height="80" src="twoWheelerIcon.png"></img>
-                <p class="imageName">Two Wheelers</p>
-            </div>
-            
         </div>
     );
 }
