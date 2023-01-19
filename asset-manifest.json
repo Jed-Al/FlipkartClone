@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/FlipkartClone/static/css/main.3e05272b.css",
-    "main.js": "/FlipkartClone/static/js/main.b590e1c4.js",
+    "main.js": "/FlipkartClone/static/js/main.2c97cafb.js",
     "static/js/787.f5e1d206.chunk.js": "/FlipkartClone/static/js/787.f5e1d206.chunk.js",
-    "static/media/twoWheelerIcon.png": "/FlipkartClone/static/media/twoWheelerIcon.09ea9f834a5d2d29aca6.png",
     "index.html": "/FlipkartClone/index.html",
     "main.3e05272b.css.map": "/FlipkartClone/static/css/main.3e05272b.css.map",
-    "main.b590e1c4.js.map": "/FlipkartClone/static/js/main.b590e1c4.js.map",
+    "main.2c97cafb.js.map": "/FlipkartClone/static/js/main.2c97cafb.js.map",
     "787.f5e1d206.chunk.js.map": "/FlipkartClone/static/js/787.f5e1d206.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e05272b.css",
-    "static/js/main.b590e1c4.js"
+    "static/js/main.2c97cafb.js"
   ]
 }
